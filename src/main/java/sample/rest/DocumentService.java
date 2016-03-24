@@ -19,7 +19,7 @@ public class DocumentService {
 
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
-	@Path("/list")
+	@Path("/")
 	public List<Document> list() {
 		return business.all();
 	}
